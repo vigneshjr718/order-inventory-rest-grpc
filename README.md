@@ -1,6 +1,3 @@
-# order-inventory-rest-grpc
-CMPE 273 assignment implementing Order–Inventory communication using REST and gRPC with timeout and deadline handling.
-
 # REST and gRPC Order–Inventory Services
 
 This project implements the same **Order → Inventory** interaction in two ways:
@@ -275,4 +272,3 @@ python -m grpc_tools.protoc \
   --grpc_python_out=grpc_version \
   grpc_version/inventory.proto
 ```
-
